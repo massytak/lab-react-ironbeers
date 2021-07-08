@@ -47,8 +47,13 @@ a {
   text-decoration: none;
   color: rgb(51, 48, 48);
 }
-.item-beer img {
+.item-beer img, .single-beer img {
   max-height: 150px;
   max-width: 20%;
   margin: 1em 2em;
 }
+.single-beer {
+  display: flex;
+  margin: auto;
+}
+
