@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+.item-beer {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  border-bottom: 2px solid rgba(10, 10, 10, 0.3);
+  text-align: left;
+}
+a {
+  text-decoration: none;
+  color: rgb(51, 48, 48);
+}
+.item-beer img {
+  max-height: 150px;
+  max-width: 20%;
+  margin: 1em 2em;
+}
