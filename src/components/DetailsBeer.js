@@ -19,6 +19,14 @@ export default class DetailsBeer extends React.Component {
       (!this.state.beer && <h1>Loading...</h1>) || (
         <div className="single-beer">
           <img src={this.state.beer.image_url} alt="beer" />
+          <div className="title-single">
+            <p>{this.state.beer.name} <span className="level-single">{this.state.beer.attenuation_level}</span></p>
+          </div>
+          <div className="subtitle-single">
+            <p><span className="tagline-single">{this.state.beer.tagline}</span> <span className="date-single">{this.state.beer.first_brewed}</span></p>
+          </div>
+          <p>{this.state.beer.description}</p>
+          <p className="contributor-single">{this.state.beer.contributed_by}</p>
         </div>
       )
     );

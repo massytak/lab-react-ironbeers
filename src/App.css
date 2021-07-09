@@ -54,6 +54,33 @@ a {
 }
 .single-beer {
   display: flex;
-  margin: auto;
+flex-direction: column;
+text-align: left;
+  height: 100%;
+  width: 100%;
+}
+.single-beer img {
+  max-height: 30vh;
+  margin: 1em auto;  
+}
+.single-beer h1 {
+  font-weight: 300;
+}
+.single-beer p {
+  margin: 0.3em 5%;
+}
+.title-single p {
+  font-size: 2em;
+ 
+}
+.level-single, .tagline-single, .contributor-single {
+  color:grey;
+}
+.level-single {
+  float: right;
+}
+.date-single {
+  float: right;
+  font-weight: 600;
 }
 
