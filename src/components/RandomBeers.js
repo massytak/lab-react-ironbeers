@@ -1,8 +1,9 @@
 import React from "react";
+import DetailsBeer from "./DetailsBeer";
 
 export default class RandomBeers extends React.Component {
 
     render() {
-        return (<h1>Random</h1>);
+        return (<DetailsBeer random={true}/>);
     }
 }
