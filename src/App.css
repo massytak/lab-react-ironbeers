@@ -95,4 +95,25 @@ text-align: left;
   float: right;
   font-weight: 600;
 }
-
+form {
+  display: flex;
+  flex-direction: column;
+}
+input, textarea {
+  margin: 0.3em auto;
+  padding: 0.2em;
+  width: 70%;
+  border-radius: 20px;
+  border: 2px solid grey;
+}
+label {
+  width: 70%;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  margin: 0.1em auto 0.2em auto;
+  text-align: left;
+}
+h1 {
+  margin-bottom: 0.1em;
+}
